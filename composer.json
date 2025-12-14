@@ -1,0 +1,31 @@
+{
+  "name": "meetahir/laravel-web-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "type": "library",
+  "version": "1.0.0",
+
+  "authors": [
+    {
+      "name": "Meet Ahir",
+      "email": "meet2110ahir.@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Meetahir\\LaravelWebInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+          "Meetahir\\LaravelWebInstaller\\Providers\\LaravelInstallerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
