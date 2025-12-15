@@ -3,7 +3,6 @@
   "description": "Laravel web installer",
   "license": "MIT",
   "type": "library",
-  "version": "1.0.0",
 
   "authors": [
     {
