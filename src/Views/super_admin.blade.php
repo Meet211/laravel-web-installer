@@ -5,28 +5,31 @@
     <link href="{{ asset('installer/helper/helper.css') }}" rel="stylesheet"/>
     <style>
         .has-error{ color: #dc2626; }
-        .has-error input{ color: #0f172a; border:1px solid #dc2626; }
+        .has-error input{ color: #0f172a; border:1px solid #dc2626; outline: none; }
+        .has-error input:focus { border-color: #dc2626; box-shadow: 0 0 0 0; }
+        .help-block { color: #ef4444; font-size: 0.75rem; margin-top: 0.25rem; font-style: italic; }
     </style>
 @endsection
 
 @section('container')
+    <div id="form-messages"></div>
     <?php $fields = config('installer.super_admin.fields', []); ?>
     <form method="get" action="{{ route('LaravelInstaller::superAdmin.store') }}" id="super-admin-form" class="space-y-5" onsubmit="submitForm();return false">
         @foreach($fields as $field)
-            <?php
+                <?php
                 $fname = $field['name'];
                 $flabel = $field['label'] ?? ucfirst($fname);
                 $ftype = $field['type'] ?? 'text';
                 $fplaceholder = $field['placeholder'] ?? '';
                 $fdefault = $field['default'] ?? '';
                 $fvalue = old($fname, $fdefault);
-            ?>
+                ?>
             <x-installer-input
-                name="{{ $fname }}"
-                label="{{ $flabel }}"
-                type="{{ $ftype }}"
-                placeholder="{{ $fplaceholder }}"
-                value="{{ $fvalue }}"
+                    name="{{ $fname }}"
+                    label="{{ $flabel }}"
+                    type="{{ $ftype }}"
+                    placeholder="{{ $fplaceholder }}"
+                    value="{{ $fvalue }}"
             />
         @endforeach
         <div class="pt-2">
