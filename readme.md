@@ -67,27 +67,27 @@ Below are example screenshots of the steps you will see in the web installer:
 
 - Welcome
   
-  ![Welcome](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/welcome.png)
+  ![Welcome](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-1.png)
 
 - Environment
   
-  ![Environment](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/environment.png)
+  ![Environment](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-2.png)
 
 - Super Admin
   
-  ![Super Admin](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/super-admin.png)
+  ![Super Admin](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-3.png)
 
 - Requirements
   
-  ![Requirements](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/requirements.png)
+  ![Requirements](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-4.png)
 
 - Permissions
   
-  ![Permissions](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/permissions.png)
+  ![Permissions](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-5.png)
 
 - Finished
   
-  ![Finished](https://raw.githubusercontent.com/meetahir/laravel-web-installer-assets/main/screens/finished.png)
+  ![Finished](https://raw.githubusercontent.com/Meet211/laravel-web-installer/refs/heads/main/src/assets/img/steps/step-6.png)
 
 Note: If the images above don’t load, they are just references; you can replace them with your own screenshots in your project’s README or documentation.
 
